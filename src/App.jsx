@@ -1,10 +1,8 @@
 import MyContacts from './components/MyContacts/MyContacts.jsx';
-// import { Provider } from 'react-redux';
-// import { store } from './redux/store';
 
 const App = () => {
   return (
-    // <Provider store={store}>
+ 
       <div
         style={{
           height: '100vh',
@@ -17,7 +15,7 @@ const App = () => {
       >
         <MyContacts />
       </div>
-    // </Provider>
+
   );
 };
 
